@@ -40,7 +40,7 @@ def main(page: ft.Page):
         altura_input = ft.TextField(label="Altura (m)", width=300, keyboard_type=ft.KeyboardType.NUMBER)
 
         return ft.View(
-            bgcolor=ft.colors.GREEN_ACCENT_100,
+            bgcolor=ft.colors.WHITE,
             route="/",
             appbar=ft.AppBar(
                 bgcolor=ft.colors.with_opacity(0.3, ft.colors.WHITE),
